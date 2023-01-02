@@ -1,0 +1,65 @@
+h1 {
+    color: red;
+}
+
+.element {
+    color: green;
+    /* Прозрачный фон */
+    background-color: transparent; 
+}
+
+#title-4 {
+    color: pink;
+}
+
+p[title='paragraph'] {
+    color: #1524ad;
+    background-color: aqua;
+}
+
+.pic {
+    background-image: url(../image/legend_5.jpg);
+    /* Без повторений */
+    height: 500px;
+    width: 600px;
+    border: 1px black solid;
+    background-repeat: no-repeat;
+}
+
+.one {
+    border: 5px green solid;
+    border-radius: 1%;
+}
+
+.two {
+    border: 5px green dotted;
+    border-radius: 15%;
+}
+
+.three {
+    border: 5px green dashed;
+    border-radius: 50%;
+}
+
+.four {
+    border: 5px green double;
+    border-radius: 100px;
+}
+
+.svyat div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
